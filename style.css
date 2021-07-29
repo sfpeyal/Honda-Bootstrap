@@ -1,0 +1,80 @@
+/*------------------------------------------------------------------
+                            google fonts
+-------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+/*------------------------------------------------------------------
+                            common styles
+-------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.header-section{
+    background-color: #264653;
+}
+.first{
+    color: #0A0826;
+}
+    .second{
+        color: #E76F51;
+}
+
+/*------------------------------------------------------------------
+                            nav styles
+-------------------------------------------------------------------*/
+#login-btn{
+    background-color: #E76F51;
+    border-radius: 5px;
+}
+
+/*------------------------------------------------------------------
+                         top banner styles
+-------------------------------------------------------------------*/
+.up{
+    margin-top: -1px;
+} 
+#modal-btn{
+    background-color: #E76F51;
+    color: #ffffff;
+}
+
+/*------------------------------------------------------------------
+                         display bike styles
+-------------------------------------------------------------------*/
+.display-bike{
+    filter: grayscale(100%);
+}
+.bikes-section small{
+    display: block;
+    text-align: center;
+    color: #E76F51;
+}
+
+/*------------------------------------------------------------------
+                         Clients styles
+-------------------------------------------------------------------*/
+.pic{
+    height: 150px;
+    width: 150px;
+}
+#client .container div,li{
+   list-style: none;
+   padding: 0 1px;
+}
+#client i{
+    color: #E76F51;
+ }
+
+ /*------------------------------------------------------------------
+                         Qustion styles
+-------------------------------------------------------------------*/
+#questions button{
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+}
